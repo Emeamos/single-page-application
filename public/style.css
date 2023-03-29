@@ -1,55 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
-body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+img{
+  height:  50px;
+  width: 50px;
 }
-.nav__menu{
-    background: royalblue;
+#list{
+  /* border: 2px solid black;   */
+  display: block;
+  justify-content: space-between;
 }
-div ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    font-size: 1.7rem;
-    font-weight: bold;
+.info{
+  /* border: 2px solid red; */
+  width: fit-content;
+  margin-bottom: 20px;
+  padding:  20px;
 }
-div ul a{
-    text-decoration: none;
-    color: #a197aa;
+.name{
+  cursor: pointer;
 }
-.active{
-    color: white;
-}
-#root{
-    padding: 3rem 2rem;
-    flex-grow: 1;
-}
-#root h1{
-    font-size: 2.5rem;
-}
-#root p{
-    margin-top: .5rem;
-    font-size: 1.2rem;
-}
-@media only screen and (max-width:450px) {
-    div ul{
-        flex-wrap: wrap;
-        font-size: 1.5rem;
-    }
-    div ul li {
-        margin: 4px 10px 4px 0;
-    }
-    #root{
-        padding: 3rem 1.5rem;
-    }
-    #root p{
-        margin-top: 1 rem;
-    }
+.height, .gender {
+  display: none;
 }
